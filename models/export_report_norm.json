@@ -1,0 +1,49 @@
+{
+  "variant": "norm",
+  "size_bytes": {
+    "fp32": 43184,
+    "int8": 25120
+  },
+  "fp32": {
+    "threshold": 0.5770905613899231,
+    "roc_auc": 0.9967561015593565,
+    "false_alarm_rate": 0.0425531914893617,
+    "detection_rate": 0.9885594209666122,
+    "per_condition": {
+      "normal": 0.0425531914893617,
+      "inner_007": 1.0,
+      "inner_014": 1.0,
+      "inner_021": 1.0,
+      "ball_007": 1.0,
+      "ball_014": 0.9284210526315789,
+      "ball_021": 1.0,
+      "outer_007": 1.0,
+      "outer_014": 1.0,
+      "outer_021": 0.9686192468619247
+    }
+  },
+  "int8": {
+    "threshold": 0.5767967104911804,
+    "roc_auc": 0.9967710046149795,
+    "false_alarm_rate": 0.0425531914893617,
+    "detection_rate": 0.9885594209666122,
+    "per_condition": {
+      "normal": 0.0425531914893617,
+      "inner_007": 1.0,
+      "inner_014": 1.0,
+      "inner_021": 1.0,
+      "ball_007": 1.0,
+      "ball_014": 0.9284210526315789,
+      "ball_021": 1.0,
+      "outer_007": 1.0,
+      "outer_014": 1.0,
+      "outer_021": 0.9686192468619247
+    }
+  },
+  "int8_quant": {
+    "input_scale": 0.03602450340986252,
+    "input_zero_point": 5,
+    "output_scale": 0.025382550433278084,
+    "output_zero_point": 4
+  }
+}

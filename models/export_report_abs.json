@@ -1,0 +1,49 @@
+{
+  "variant": "abs",
+  "size_bytes": {
+    "fp32": 43184,
+    "int8": 25120
+  },
+  "fp32": {
+    "threshold": 0.04329285770654678,
+    "roc_auc": 1.0,
+    "false_alarm_rate": 0.0,
+    "detection_rate": 1.0,
+    "per_condition": {
+      "normal": 0.0,
+      "inner_007": 1.0,
+      "inner_014": 1.0,
+      "inner_021": 1.0,
+      "ball_007": 1.0,
+      "ball_014": 1.0,
+      "ball_021": 1.0,
+      "outer_007": 1.0,
+      "outer_014": 1.0,
+      "outer_021": 1.0
+    }
+  },
+  "int8": {
+    "threshold": 0.04337692633271217,
+    "roc_auc": 1.0,
+    "false_alarm_rate": 0.0,
+    "detection_rate": 1.0,
+    "per_condition": {
+      "normal": 0.0,
+      "inner_007": 1.0,
+      "inner_014": 1.0,
+      "inner_021": 1.0,
+      "ball_007": 1.0,
+      "ball_014": 1.0,
+      "ball_021": 1.0,
+      "outer_007": 1.0,
+      "outer_014": 1.0,
+      "outer_021": 1.0
+    }
+  },
+  "int8_quant": {
+    "input_scale": 0.009311913512647152,
+    "input_zero_point": -10,
+    "output_scale": 0.006581774912774563,
+    "output_zero_point": -4
+  }
+}
